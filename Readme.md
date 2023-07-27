@@ -18,13 +18,14 @@ To get started with the Kubebuilder-Operator, follow the steps below:
    ```bash
    kubectl apply -f config/crd/bases/demo.demo.kubebuilder.io_demovolumes.yaml
 
-4. ```bash
+4. Install Instances of Custom Resources
+   ```bash
    kubectl apply -f config/samples/demo_v1_demovolumes.yaml
 
 5.  ```bash
     kubectl get crds
 
-6. run your operator locally:
+6. Run your operator locally:
    ```bash
    make run
 
