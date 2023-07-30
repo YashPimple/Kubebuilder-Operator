@@ -1,3 +1,9 @@
+## Operator
+Demo Kubebuilder Operator for creating Persistent volume claims(PVC)
+
+## How it works:
+The Operator efficiently automates the creation of Persistent Volume Claims (PVCs) by leveraging the demo-volumes Custom Resource Definition (CRD)
+
 ## Getting Started
 
 To get started with the Kubebuilder-Operator, follow the steps below:
